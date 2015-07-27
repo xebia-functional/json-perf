@@ -23,7 +23,7 @@ cover only the latter
 ## Contact ##
 
 - John Nestor
-- <a href="nestor@persist.com">nestor@persist.com</a>
--
+- <a href="mailto:nestor@persist.com">nestor@persist.com</a>
+
 - Dragos Manolescu
-- <a href="coder@micro-workflow.com">coder@micro-workflow.com</a>
+- <a href="mailto:coder@micro-workflow.com">coder@micro-workflow.com</a>
