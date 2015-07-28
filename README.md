@@ -21,8 +21,6 @@ com.fourtysevendeg.jsonScalaPerftest.Main
 
 ## Contact ##
 
-- John Nestor
-- <a href="mailto:nestor@persist.com">nestor@persist.com</a>
+- John Nestor <a href="mailto:nestor@persist.com">nestor@persist.com</a>
 
-- Dragos Manolescu
-- <a href="mailto:coder@micro-workflow.com">coder@micro-workflow.com</a>
+- Dragos Manolescu <a href="mailto:coder@micro-workflow.com">coder@micro-workflow.com</a>
