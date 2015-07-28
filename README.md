@@ -8,17 +8,17 @@ $ ./sbt
 > run
 ```
 
-There are three command-line arguments:
+There are several command-line arguments for
 
-com.microWorkflow.jsonScalaPerftest.Main [-n num] [-w num] [-map]
+com.fourtysevendeg.jsonScalaPerftest.Main
 
--n is the number of iterations to run; the default value is 200, and the result is the mean value
--w is the number of iterations for warm-up, i.e., executed prior to taking measurements; the default
+-iterations n is the number of iterations to run; the default value is 200, and the result is the mean value
+-warmup n is the number of iterations for warm-up, i.e., executed prior to taking measurements; the default
 value is 25
--map is optional and determines whether the measurements cover the
-object model mapping in addition to JSON parsing. Without this argument the measurements
-cover only the latter
-
+-exclude a,b,c is a list of parsers to exclude from the test
+- operation op where op is p (parse), up (unparse), m (map), um (unmap, NYI); the default is p
+- report r where r is c (console) or b (bar chart); default is c
+-report title is the chart title
 
 ## Contact ##
 
