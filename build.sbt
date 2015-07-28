@@ -43,7 +43,7 @@ javacOptions ++= Seq("-Xlint:unchecked", "-Xlint:deprecation",
 /* dependencies */
 libraryDependencies ++= Seq(
   "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
-  "com.persist" %% "persist-json" % "1.0.17-SNAPSHOT",
+  "com.persist" %% "persist-json" % "1.1.0",
   "com.fasterxml.jackson.core" % "jackson-core" % "2.5.3",
   "com.fasterxml.jackson.core" % "jackson-databind" % "2.5.3",
   "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.5.3",

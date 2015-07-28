@@ -29,9 +29,9 @@ object Main extends App {
   val operationOpt = argParser
     .accepts("operation", "Test, p=parse,up=unparse,m=map,um=unmap")
     .withRequiredArg()
-    .describedAs("Character; default is 'c'")
+    .describedAs("Character; default is 'p'")
     .ofType(classOf[String])
-    .defaultsTo("c")
+    .defaultsTo("")
   val reportOpt = argParser
     .accepts("report", "Result generation, c=console, b=bar chart.")
     .withRequiredArg()
