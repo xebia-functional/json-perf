@@ -1,29 +1,20 @@
 # JSON Scala parsing performance tests — Performance tests for Scala JSON parsing options #
 
-## Build & run ##
+## Run ##
 
-```sh
-$ cd JSON-Scala-parsing-performance-tests
-$ ./sbt
-> run
-```
+There are several command-line arguments for
 
-There are three command-line arguments:
+com.fourtysevendeg.jsonScalaPerftest.Main
 
-com.microWorkflow.jsonScalaPerftest.Main [-n num] [-w num] [-map]
-
--n is the number of iterations to run; the default value is 200, and the result is the mean value
--w is the number of iterations for warm-up, i.e., executed prior to taking measurements; the default
-value is 25
--map is optional and determines whether the measurements cover the
-object model mapping in addition to JSON parsing. Without this argument the measurements
-cover only the latter
-
+- **-iterations n** where n is the number of iterations to run; the default value is 200
+- **-warmup n** where n is the number of iterations for warm-up, i.e., executed prior to taking measurements; the default value is 25
+- **-exclude a,b,c** is a list of parsers to exclude from the test
+- **-operation op** where op is p (parse), up (unparse), m (map), um (unmap, NYI); the default is p
+- **-report r** where r is c (console) or b (bar chart); default is c
+- **-title t** is the chart title
 
 ## Contact ##
 
-- John Nestor
-- <a href="nestor@persist.com">nestor@persist.com</a>
--
-- Dragos Manolescu
-- <a href="coder@micro-workflow.com">coder@micro-workflow.com</a>
+- John Nestor. <a href="mailto:nestor@persist.com">nestor@persist.com</a>
+
+- Dragos Manolescu. <a href="mailto:coder@micro-workflow.com">coder@micro-workflow.com</a>
